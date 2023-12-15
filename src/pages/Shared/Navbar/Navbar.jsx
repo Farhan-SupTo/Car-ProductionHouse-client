@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import  { useContext } from "react";
 import logo from "../../../assets/logo.svg";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../../Providers/AuthProvider";
@@ -8,7 +8,9 @@ const Navbar = () => {
 
   const handleLogOut = () => {
     logOut()
-      .then(() => {})
+      .then(() => {
+      
+      })
       .catch((error) => console.log(error));
   };
 
